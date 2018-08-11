@@ -100,6 +100,23 @@ Author's custom styles
   background-color: rgba(#333333, 0.36);
   font-family: 'Bungee Inline', cursive;
   margin: 1%;
+  position: sticky;
+}
+
+.aligned{
+  margin: 1%;
+}
+
+.jumbotron{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding: 1% !important;
+}
+
+.jumbotron p{
+  font-size: 15px !important;
 }
 
 .custom_font{
@@ -110,8 +127,8 @@ footer{
   background-color: #44444a;
   display: block;
   color: white;
-  height: 180px;
   padding: 20px;
+  height: 250px;
 }
 
 .carousel-inner > .item > img,
@@ -120,6 +137,23 @@ footer{
   margin: auto;
 }
 
+#portfolio{
+  padding: 5%;
+}
+
+.thumbnail:hover{
+  background-color: #333333;
+}
+
+.portfolio_thumb{
+  text-decoration: none;
+  color: black;
+}
+
+.portfolio_thumb:hover{
+  text-decoration: none;
+  color: white;
+}
 
 
 
