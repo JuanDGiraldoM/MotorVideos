@@ -99,6 +99,7 @@ Author's custom styles
 #nav_bar{
   background-color: rgba(#333333, 0.36);
   font-family: 'Bungee Inline', cursive;
+  margin: 1%;
 }
 
 .custom_font{
@@ -113,53 +114,11 @@ footer{
   padding: 20px;
 }
 
-#title{
-  margin: 20px;
-  font-size: 60px;
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 70%;
+  margin: auto;
 }
-
-ul#menu {
-  list-style-type: none;
-  margin: 1%;
-  padding: 0;
-  overflow: hidden;
-
-}
-
-ul#menu li {
-  float: left;
-
-}
-
-ul#menu li a {
-  display: block;
-  color: white;
-  font-size: 15px;
-  text-align: center;
-  padding: 20px;
-  text-decoration: none;
-}
-
-ul#menu li a:hover{
-  background-color: #111111;
-}
-
-/* .video_list{
-margin: 10%;
-}
-
-.video_raw{
-margin: 5%;
-margin-left: auto;
-margin-right: auto;
-float: left;
-text-align: right;
-}
-
-.video{
-width: 400px;
-height: 350px;
-} */
 
 
 
